@@ -113,9 +113,15 @@ describe MagicSquare do
   end
 
   describe "'magic' of Magic Squares" do
-    it "should validate magic properties of squares" do
-      validate_square_is_magic(MagicSquare.new(4), 4)
+    it "should validate magic properties of odd sized squares" do
       validate_square_is_magic(MagicSquare.new(5), 5)
+    end
+
+    it "should validate magic properties of single even sized squares" do
+      validate_square_is_magic(MagicSquare.new(4), 4)
+    end
+
+    it "should validate magic properties of double even sized squares" do
       validate_square_is_magic(MagicSquare.new(6), 6)
     end
   end
