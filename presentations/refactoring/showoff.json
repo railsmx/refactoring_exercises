@@ -1,0 +1,10 @@
+{
+    "name": "Refactoring in Ruby",
+    "sections": [
+        { "section" : "introduction" },
+        { "section" : "motivation" },
+        { "section" : "process" },
+        { "section" : "gotchas" },
+        { "section" : "the_end" }
+    ]
+}
